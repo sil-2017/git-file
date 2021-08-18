@@ -1,0 +1,98 @@
+/*loxacox producty*/
+.fixed-gift {
+    position: fixed;
+    z-index: 19;
+    display: inline;
+    top: 4rem;
+    right: 2rem;
+    cursor: pointer;
+}
+.floating-cart .product-front {
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.floating-cart.moveToCart {
+    width: 57px;
+    height: 57px;
+    transition: all 800ms ease-in-out;
+}
+.MakeFloatingCart div.cart-icon-bottom {
+    z-index: 300;
+}
+.cart-item .delete-item {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    line-height: -3;
+    float: right;
+    margin-right: 38px;
+    display: block;
+    text-shadow: 0px 2px 1px #000000, 0px 1px 2px #000000, 0px 3px 0px rgba(181, 69, 246, 0.7), 0px 2px 0px rgba(181, 69, 246, 0.3);
+}
+
+.cart-item:hover .delete-item {
+    display: block;
+    cursor: pointer;
+    text-shadow: 0px 1px 1px #000000, 0px 0px 0px #000000, 0px 0px 0px rgba(181, 69, 246, 0.7), 0px 0px 0px rgba(181, 69, 246, 0.3);
+}
+.cart-item.flash {
+    background: #fffeb0;
+}
+
+.cart-item-border {
+    position: absolute;
+    bottom: 0;
+    left: 45px;
+    background: #A6920A;
+    height: 1px;
+    width: 230px;
+}
+
+.cart-item .img-wrap {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border: 1px solid #edeff0;
+    float: left;
+    margin-left: -65px;
+}
+
+.cart-item img {
+    width: 100%;
+    position: relative;
+    top: -10px;
+}
+
+.cart-item strong {
+    color: #E12419;
+    font-size: 16px;
+}
+
+.cart-item span {
+    color: #393c45;
+    display: block;
+    font-size: 12px;
+}
+.delete-item {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    line-height: -3;
+    float: right;
+    margin-right: 38px;
+    display: block;
+    text-shadow: 0px 2px 1px #000000, 0px 1px 2px #000000, 0px 3px 0px rgba(181, 69, 246, 0.7), 0px 2px 0px rgba(181, 69, 246, 0.3);
+}
+.floating-cart {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 115px;
+    height: 210px;
+    background: #fff;
+    z-index: 200;
+    overflow: hidden;
+    box-shadow: 0px 5px 31px -1px rgba(0, 0, 0, 0.15);
+    display: none;
+}

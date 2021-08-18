@@ -1,0 +1,56 @@
+.f-centered {
+    justify-content: center;
+    align-items: center;
+}
+
+.bg{
+    background-color: black;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.height{
+    height: auto;
+    overflow: hidden;
+}
+
+.active {
+    text-decoration: none;
+    color: #454545;
+  }
+.col-12{
+    position: relative;
+    width: 100%;
+    @media (min-width:992px) {
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+}
+.col-4{
+    position: relative;
+    width: 100%;
+    @media (min-width:992px) {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%
+    }
+}
+
+.col-9{
+    position: relative;
+    width: 100%;
+    @media (min-width:992px) {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+}
+.col-3{
+    position: relative;
+    width: 100%;
+    @media (min-width:992px) {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
